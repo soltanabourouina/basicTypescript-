@@ -2,8 +2,13 @@ import { Component } from "@angular/core";
 
 @Component({
     selector:  'courses',
-    template: '<h1>mes cours de dev</h1>'
+    templateUrl: './courses.component.html'
 })
 export class CoursesComponent {
 
+    title ="la liste de mes cours";
+    courses =['laravel','symphony','Angular','VueJS','FireBase'];
+    getTitle(){
+        return this.title;
+    }
 }
