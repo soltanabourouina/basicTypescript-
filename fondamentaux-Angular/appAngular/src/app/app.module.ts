@@ -9,6 +9,7 @@ import { EmailService } from './email.service';
 import { FormsModule } from '@angular/forms';
 import { ResumePipe } from './resume.pipe';
 import { FavoriteComponent } from './favorite/favorite.component';
+import { PanelComponent } from './panel/panel.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { FavoriteComponent } from './favorite/favorite.component';
     CoursesComponent,
     CourseComponent,
     ResumePipe,
-    FavoriteComponent
+    FavoriteComponent,
+    PanelComponent
   ],
   imports: [
     BrowserModule,
